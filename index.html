@@ -20,7 +20,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="https://effysarah.github.io/Datawithsarah.github.io/">
   <meta property="twitter:url" content="https://effysarah.github.io/Datawithsarah.github.io/">
-  <meta name="twitter:title" content="Sarah Effiong | Data Scientist|Analyst">
+  <meta name="twitter:title" content="Sarah Effiong | Data Analyst | AI Developer">
   <meta name="twitter:description" content="Unlock data insights with Sarah Effiong. datawithsarah.">
 </head>
 <body>
@@ -31,7 +31,7 @@
       <ul data-menu>
         <li><a href="#services">Services</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="https://1drv.ms/w/c/997642462ccd6404/EfCYyK4sELlGiWAQqjzfmf0BCuZQoKYUUFj7fHWnXN0TAA">Resume</a></li>
+        <li><a href="https://docs.google.com/document/d/1uIpTcS1rsmxKJe6LMIL4xVNvvUOfBWBW/edit?usp=sharing&ouid=103552666394428723054&rtpof=true&sd=true">Resume</a></li>
         <li>
           <button class="btn-theme" data-btn-theme aria-label="theme-button">
             <i class="fa-solid fa-moon"></i>
@@ -47,20 +47,21 @@
   </nav>
 
   <!-- Header -->
-  <header>
-    <div class="container">
-      <img src="images/hero.jpg" alt="Sarah Effiong" class="hero-img" />
-      <div>
-        <h1>Data Scientist</h1>
-        <p>Step into a realm where data comes to life. I'm Sarah, your guide through the fascinating landscape of analytics and insights.</p>
-        <p>Let's discuss how i can contribute to your success!</p>
-        <p>Skills: Python,R,SQL,Excel,Tableau,Machine Learning</p>
-        <div id="resume"> 
-        <a href="https://1drv.ms/w/c/997642462ccd6404/EfCYyK4sELlGiWAQqjzfmf0BCuZQoKYUUFj7fHWnXN0TAA" class="btn-link">RESUME</a>
-         </div>
+<header class="main-header">
+  <div class="container header-flex">
+    <img src="images/thesarah.jpg" alt="Sarah Effiong" class="thesarah-img" />
+
+    <div class="header-text">
+      <h1>Data Analyst | AI/ML Developer</h1>
+      <p>I'm Sarah Effiong, an AI/ML Developer and Data Analyst who transforms complex data into intelligent, actionable solutions.</p>
+      <p>From building agentic AI systems to designing KPI dashboards and LLM-powered assistants, I bridge the gap between raw information and real impact.</p>
+      <p><strong>Skills:</strong> Python, SQL, Excel, Tableau, Machine Learning</p>
+      <div id="resume">
+        <a href="https://1drv.ms/w/c/997642462ccd6404/EfCYyK4sELlGiWAQqjzfmf0BCuZQoKYUUFj7fHWnXN0TAA" class="btn-link" target="_blank">Resume</a>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 
   <!-- Main Content -->
   <main>
@@ -71,14 +72,27 @@
         <div class="services-container">
           <div class="service-card">
             <i class="fa-solid fa-globe"></i>
-            <h3>Transforming Data into Insights</h3>
-            <p>🚀 Your Data Journey Starts Here!
-                I specialize in unleashing the power of data through advanced analytics, machine learning, and compelling visualizations. 
-                From deciphering complex datasets to crafting actionable insights,
-                I turn raw information into strategic solutions. Whether you're a business seeking growth, 
-                an individual with a data challenge, or an organization aiming for informed decisions, 
-                let's embark on a data-driven journey together. Explore my portfolio, and let's transform your data into a story of success.
+            <h3>🚀 AI & Data Services to Power Your Business</h3>
+    
+            <p>
+              Looking to harness the power of data and intelligent automation? You're in the right place.  
+              As an experienced AI/ML Developer and Data Analyst, I offer tailored solutions that help businesses unlock insights, boost productivity, and make smarter decisions.
             </p>
+    
+            <p><strong>🔍 Here’s what I can do for you:</strong></p>
+            <ul>
+              <li>✔️ Build virtual CFO systems to track KPIs, cashflow, and financial health</li>
+              <li>✔️ Design AI-powered assistants using LangChain, Hugging Face, and prompt engineering</li>
+              <li>✔️ Clean, structure, and analyze large datasets with Python, SQL, and Excel</li>
+              <li>✔️ Visualize trends and metrics using Power BI, Tableau, and interactive dashboards</li>
+              <li>✔️ Deploy LLM-based solutions for document search, summarization, and insights</li>
+            </ul>
+    
+            <p>
+              Whether you're launching a new AI product or need help turning messy data into meaningful decisions, I’m here to support your next big leap.  
+              <strong>Let’s work together to transform your data into measurable impact.</strong>
+            </p>
+            
           </div>
         </div>
       </div>
@@ -88,99 +102,90 @@
     <section id="projects">
       <div class="container">
           <h2>My Projects</h2>
-        <div class="projects-container">
           <div class="project-card">
-            <img src="images/heartt.jpg" alt="Heart-disease-prediction">
+            <img src="images/Docubot.jpg" alt="DocuBot AI Assistant">
+            <div class="project-info">
+              <h3>DocuBot - RAG Assistant with Knowledge Base & Web Search</h3>
+              <p>An intelligent assistant powered by Hugging Face Transformers (Qwen 1.5B) and LangChain. Combines document retrieval from PDFs with real-time web search, integrated with Supabase PostgreSQL for persistent user memory and interactions.</p>
+              <div class="card-group">
+                <a href="https://docubot-jnkj8akxtkwfvtr558eq5a.streamlit.app/" target="_blank">View Project <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="images/auto-data.jpg" alt="Auto Data Analyst Agent">
+            <div class="project-info">
+              <h3>Auto Data Analyst Agent</h3>
+              <p>A Streamlit-based tool that interprets CSV/Excel data using Hugging Face NLP APIs and DuckDB. Converts user questions into SQL queries and generates real-time summaries with retry handling for enhanced robustness.</p>
+              <div class="card-group">
+                <a href="https://auto-data-analyst-dco49mq5fwguhcydnnfvbh.streamlit.app/" target="_blank">View Project <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="images/tb.jpg" alt="Tuberculosis Detection Web App">
+            <div class="project-info">
+              <h3>Tuberculosis Detection Web App</h3>
+              <p>A CNN model deployed as a web app to detect tuberculosis using chest X-ray imagery. Achieved 92%+ accuracy via preprocessing methods like histogram equalization and contrast stretching.</p>
+              <div class="card-group">
+                <a href="https://tuberculosis-detection-web-app-fmatgeegx86jbo9rhrtbv5.streamlit.app/" target="_blank">View Project <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="images/heartt.jpg" alt="Heart Disease Prediction">
             <div class="project-info">
               <h3>Heart Disease Prediction Model</h3>
-              <p>This project is focused on predicting whether a patient has a 10-year risk of future coronary heart disease (CHD). 
-                The target variable is TenYearCHD, which is a binary variable indicating whether 
-                 the patient developed CHD within 10 years of the baseline visit.
-              </p>
+              <p>Built a machine learning model to predict 10-year risk of coronary heart disease (CHD) using clinical and demographic features. The binary target variable <em>TenYearCHD</em> indicates whether a patient developed CHD within 10 years of their initial visit.</p>
               <div class="card-group">
-                <a href="https://github.com/Effysarah/Heart-disease-prediction" target="_blank">
-                  View Project <i class="fa-brands fa-github"></i>
-                </a>
+                <a href="https://github.com/Effysarah/Heart-disease-prediction" target="_blank">View Project <i class="fa-brands fa-github"></i></a>
               </div>
             </div>
           </div>
-
+          
           <div class="project-card">
+            <img src="images/sms-image.jpeg" alt="SMS Spam Detection">
             <div class="project-info">
-              <h3>Titanic Prediction Model</h3>
-              <p>
-                This project contains  machine learning models for predicting the survival of passengers on the Titanic. 
-                The model is trained on the famous Titanic dataset, providing features such as age, gender, ticket class, and more. 
-                Predicting survival is a classic problem in data science and serves as an introduction to binary classification.
-              </p>
+              <h3>SMS Spam Detection Model</h3>
+              <p>Developed a classification model using labeled SMS data to detect spam messages. Supports secure and efficient mobile communication by distinguishing between spam and legitimate (ham) messages.</p>
               <div class="card-group">
-                <a href="https://github.com/Effysarah/Titanic-prediction-model" target="_blank">
-                  View Project <i class="fa-brands fa-github"></i>
-                </a>
-              </div>
-            </div>
-            <img src="images/titanic-image.jpeg" alt="Titanic-prediction-model">
-          </div>
-
-          <div class="project-card">
-            <img src="images/sms-image.jpeg" alt="sms-image">
-
-            <div class="project-info">
-              <h3>Sms Spam Detection Model</h3>
-              <p>
-                This project hosts a machine learning  model specialised in detecting spam in SMS messages.
-                 Leveraging a Dataset of labeled SMS texts, the model distinguishes between  spam and non spam (ham). 
-                Efficient SMS spam detection is crucial for maintaining the security and user experience of mobile communication.
-              </p>
-              <div class="card-group">
-                <a href="https://github.com/Effysarah/Spam-detection-model" target="_blank">
-                  View Project <i class="fa-brands fa-github"></i>
-                </a>
+                <a href="https://github.com/Effysarah/Spam-detection-model" target="_blank">View Project <i class="fa-brands fa-github"></i></a>
               </div>
             </div>
           </div>
-
+          
           <div class="project-card">
+            <img src="images/covid-image.jpeg" alt="COVID-19 SQL Analysis">
             <div class="project-info">
-              <h3>COVID 19 EXPLORATION PROJECT</h3>
-              <p>This project contains an exploration and analysis of COVID-19 data using SQL queries. 
-                  The project aims to provide insights into various aspects of the pandemic, leveraging a dataset containing information such as confirmed cases and deaths.
-              </p>
+              <h3>COVID-19 Data Exploration</h3>
+              <p>Conducted SQL-based exploration of global COVID-19 data to analyze trends in confirmed cases, deaths, and regional statistics. Insights contributed to data-driven public health understanding.</p>
               <div class="card-group">
-                <a href="https://github.com/Effysarah/Covid-19-Exploration-Data/tree/main" target="_blank">
-                  View Project <i class="fa-brands fa-github"></i>
-                </a>
-              </div>
-            </div>
-            <img src="images/covid-image.jpeg" alt="covid-image">
-          </div>
-
-          <div class="project-card">
-            <img src="images/tableau.image.jpeg" alt="tableau-image">
-
-            <div class="project-info">
-              <h3>TABLEAU DASHBOARD</h3>
-              <p>Tableau Dashboard for All Visualizations
-              </p>
-              <div class="card-group">
-                <a href="https://public.tableau.com/app/profile/sarah4194/vizzes" target="_blank">
-                  View Project <i class="fa-solid fa-up-right-from-square"></i>
-                </a>
+                <a href="https://github.com/Effysarah/Covid-19-Exploration-Data/tree/main" target="_blank">View Project <i class="fa-brands fa-github"></i></a>
               </div>
             </div>
           </div>
-
+          
           <div class="project-card">
-            <img src="images/bike-image.jpg" alt="bike-image">
-
+            <img src="images/tableau.image.jpeg" alt="Tableau Dashboards">
             <div class="project-info">
-              <h3>BIKE SALES DATASET</h3>
-              <p>This project  contains a dataset and analysis of bike sales using Microsoft Excel. 
-                The dataset provides information on average income of bike customers, and the analysis aims to derive insights into sales trends, customer preferences, and overall performance.</p>
+              <h3>Interactive Tableau Dashboards</h3>
+              <p>Created a collection of interactive Tableau dashboards to visualize business, financial, and health-related datasets with actionable insights and user-friendly layouts.</p>
               <div class="card-group">
-                <a href="https://github.com/Effysarah/Excel-Dataset" target="_blank">
-                  View Project <i class="fa-brands fa-github"></i>
-                </a>
+                <a href="https://public.tableau.com/app/profile/sarah4194/vizzes" target="_blank">View Project <i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <img src="images/bike-image.jpg" alt="Bike Sales Data Analysis">
+            <div class="project-info">
+              <h3>Bike Sales Data Analysis (Excel)</h3>
+              <p>Analyzed bike sales data using Excel to identify customer income patterns, sales trends, and marketing insights. Delivered performance breakdowns to support retail decision-making.</p>
+              <div class="card-group">
+                <a href="https://github.com/Effysarah/Excel-Dataset" target="_blank">View Project <i class="fa-brands fa-github"></i></a>
               </div>
             </div>
           </div>
@@ -217,10 +222,10 @@
       <section class="footer-links">
         <a href="#" class="logo" aria-label="logo" data-footer-logo>datawithsarah🍁</a>
         <div class="social-links">
-          <a href="https://x.com/datawithsarah?t=-33lYu0ScUIBtJB2C9Mv-g&s=09 " target="_blank" aria-label="Twitter">
+          <a href="https://x.com/datawithsarah " target="_blank" aria-label="Twitter">
             <i class="fa-brands fa-x-twitter"></i>
           </a>
-          <a href="https://www.linkedin.com/in/sarah-effiong-09913a210/ " target="_blank" aria-label="Linkedin">
+          <a href="https://www.linkedin.com/in/sarah-i-effiong-09913a210/ " target="_blank" aria-label="Linkedin">
             <i class="fa-brands fa-linkedin fa-2x"></i>
           </a>
           <a href="https://github.com/Effysarah  " target="_blank" aria-label="GitHub">
